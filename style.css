@@ -82,6 +82,7 @@ p:last-child { margin-bottom: 0; }
   transition: background 0.2s, color 0.2s, border-color 0.2s;
   cursor: pointer;
   border: 1.5px solid transparent;
+  white-space: nowrap;
 }
 
 .btn-primary {
@@ -131,14 +132,16 @@ nav {
   color: var(--text);
   white-space: nowrap;
   flex-shrink: 0;
+  margin-right: 2rem;
 }
 .nav-logo:hover { color: var(--accent); transition: color 0.2s; }
 
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.75rem;
   list-style: none;
+  flex: 1;
 }
 
 .nav-links a {
