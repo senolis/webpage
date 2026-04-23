@@ -574,6 +574,37 @@ footer {
   .testimonials-grid { grid-template-columns: 1fr 1fr; }
 }
 
+/* ── Language switcher ── */
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-left: 0.5rem;
+}
+
+.lang-btn {
+  background: none;
+  border: 1.5px solid transparent;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  padding: 3px 7px;
+  border-radius: 2px;
+  transition: color 0.2s, border-color 0.2s;
+  line-height: 1.4;
+}
+.lang-btn:hover  { color: var(--accent); }
+.lang-btn.active { color: var(--accent); border-color: var(--accent); }
+
+/* Hide mobile lang switcher on desktop */
+.nav-mobile-controls { display: none; }
+@media (max-width: 700px) {
+  .nav-mobile-controls { display: flex; align-items: center; gap: 0.5rem; }
+}
+
 /* ── Form feedback ── */
 .form-success {
   display: none;

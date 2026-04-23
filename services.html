@@ -9,117 +9,95 @@
 </head>
 <body>
 
-  <!-- Navigation -->
   <nav>
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo">Vytautas Tamulevicius</a>
+      <a href="index.html" class="nav-logo" data-i18n="nav_logo">Vytautas Tamulevicius</a>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html" class="active">Services</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li class="nav-cta"><a href="contact.html" class="btn btn-primary">Get in touch</a></li>
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="services.html" class="active" data-i18n="nav_services">Services</a></li>
+        <li><a href="about.html" data-i18n="nav_about">About</a></li>
+        <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+        <li class="nav-cta"><a href="contact.html" class="btn btn-primary" data-i18n="nav_cta">Get in touch</a></li>
+        <li>
+          <div class="lang-switcher">
+            <button class="lang-btn" data-lang="en" aria-label="Switch to English">EN</button>
+            <button class="lang-btn" data-lang="dk" aria-label="Skift til dansk">DA</button>
+          </div>
+        </li>
       </ul>
-      <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+      <div class="nav-mobile-controls">
+        <div class="lang-switcher">
+          <button class="lang-btn" data-lang="en" aria-label="Switch to English">EN</button>
+          <button class="lang-btn" data-lang="dk" aria-label="Skift til dansk">DA</button>
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
     <div class="mobile-menu">
-      <a href="index.html">Home</a>
-      <a href="services.html">Services</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a href="contact.html" class="btn btn-primary">Get in touch</a>
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="services.html" data-i18n="nav_services">Services</a>
+      <a href="about.html" data-i18n="nav_about">About</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
+      <a href="contact.html" class="btn btn-primary" data-i18n="nav_cta">Get in touch</a>
     </div>
   </nav>
 
   <main>
     <section>
       <div class="container">
-        <p class="section-label">What I offer</p>
-        <h1>Services</h1>
-        <p style="color:#555; max-width:580px; margin-top:0.75rem;">
-          I work across three areas — architecture, strategy, and quality. Most engagements touch
-          more than one. The goal is always the same: clear thinking, sound decisions, and
-          outcomes that hold up over time.
-        </p>
+        <p class="section-label" data-i18n="sp_label">What I offer</p>
+        <h1 data-i18n="sp_h1">Services</h1>
+        <p style="color:#555; max-width:580px; margin-top:0.75rem;" data-i18n="sp_intro">I work across three areas — architecture, strategy, and quality. Most engagements touch more than one. The goal is always the same: clear thinking, sound decisions, and outcomes that hold up over time.</p>
 
-        <!-- Service 1 -->
         <div class="service-block">
-          <h2>Architecture Leadership</h2>
-          <p>
-            Good architecture doesn't come from frameworks or templates — it comes from understanding
-            the system, the team, and the constraints in front of you. I work alongside engineering
-            teams to provide direction that's technically sound and practically executable.
-          </p>
+          <h2 data-i18n="sp_s1_h2">Architecture Leadership</h2>
+          <p data-i18n="sp_s1_p">Good architecture doesn't come from frameworks or templates — it comes from understanding the system, the team, and the constraints in front of you. I work alongside engineering teams to provide direction that's technically sound and practically executable.</p>
           <ul class="service-list">
-            <li>Solution architecture and system design for complex, distributed systems</li>
-            <li>Integration-heavy environments — APIs, event-driven systems, legacy connectivity</li>
-            <li>Technical direction and architecture decision records (ADRs)</li>
-            <li>Design reviews and architecture assessments</li>
-            <li>Helping teams move from ad hoc decisions to a coherent technical direction</li>
+            <li data-i18n="sp_s1_l1">Solution architecture and system design for complex, distributed systems</li>
+            <li data-i18n="sp_s1_l2">Integration-heavy environments — APIs, event-driven systems, legacy connectivity</li>
+            <li data-i18n="sp_s1_l3">Technical direction and architecture decision records (ADRs)</li>
+            <li data-i18n="sp_s1_l4">Design reviews and architecture assessments</li>
+            <li data-i18n="sp_s1_l5">Helping teams move from ad hoc decisions to a coherent technical direction</li>
           </ul>
         </div>
 
-        <!-- Service 2 -->
         <div class="service-block">
-          <h2>Enterprise &amp; Strategic Architecture</h2>
-          <p>
-            The gap between business intent and technical execution is where most problems live.
-            I help bridge it — working with both technical teams and non-technical stakeholders to
-            ensure that architecture decisions are grounded in what the business actually needs.
-          </p>
+          <h2 data-i18n="sp_s2_h2">Enterprise &amp; Strategic Architecture</h2>
+          <p data-i18n="sp_s2_p">The gap between business intent and technical execution is where most problems live. I help bridge it — working with both technical teams and non-technical stakeholders to ensure that architecture decisions are grounded in what the business actually needs.</p>
           <ul class="service-list">
-            <li>Aligning technology decisions with business goals and constraints</li>
-            <li>Modernisation guidance — realistic roadmaps, not wishful thinking</li>
-            <li>Stakeholder collaboration and architecture communication</li>
-            <li>Architecture governance without unnecessary bureaucracy</li>
-            <li>Supporting organisations through significant technology transitions</li>
+            <li data-i18n="sp_s2_l1">Aligning technology decisions with business goals and constraints</li>
+            <li data-i18n="sp_s2_l2">Modernisation guidance — realistic roadmaps, not wishful thinking</li>
+            <li data-i18n="sp_s2_l3">Stakeholder collaboration and architecture communication</li>
+            <li data-i18n="sp_s2_l4">Architecture governance without unnecessary bureaucracy</li>
+            <li data-i18n="sp_s2_l5">Supporting organisations through significant technology transitions</li>
           </ul>
         </div>
 
-        <!-- Service 3 -->
         <div class="service-block">
-          <h2>Quality, DevSecOps &amp; Observability</h2>
-          <p>
-            Shipping confidently is a discipline. It requires the right test strategy, the right
-            tooling, and a clear view of what's happening in production. I help teams build that
-            foundation — not as a one-time project, but as a sustainable way of working.
-          </p>
+          <h2 data-i18n="sp_s3_h2">Quality, DevSecOps &amp; Observability</h2>
+          <p data-i18n="sp_s3_p">Shipping confidently is a discipline. It requires the right test strategy, the right tooling, and a clear view of what's happening in production. I help teams build that foundation — not as a one-time project, but as a sustainable way of working.</p>
           <ul class="service-list">
-            <li>Test strategy and quality engineering — coverage that matters, not just volume</li>
-            <li>Release confidence and deployment pipeline design</li>
-            <li>Monitoring, alerting, and system observability</li>
-            <li>Secure development practices embedded in the workflow, not bolted on at the end</li>
-            <li>Helping teams understand and own the quality of what they ship</li>
+            <li data-i18n="sp_s3_l1">Test strategy and quality engineering — coverage that matters, not just volume</li>
+            <li data-i18n="sp_s3_l2">Release confidence and deployment pipeline design</li>
+            <li data-i18n="sp_s3_l3">Monitoring, alerting, and system observability</li>
+            <li data-i18n="sp_s3_l4">Secure development practices embedded in the workflow, not bolted on at the end</li>
+            <li data-i18n="sp_s3_l5">Helping teams understand and own the quality of what they ship</li>
           </ul>
         </div>
 
-        <!-- AI note -->
         <div class="ai-note">
-          <h3>A note on AI</h3>
-          <p>
-            I follow AI regulation developments closely and have hands-on experience integrating AI APIs
-            into product systems. I treat AI as a practical capability to be assessed carefully in context —
-            not a headline feature or a default answer. If it genuinely solves a real problem in your situation,
-            I can help evaluate the options and integrate them thoughtfully. I don't position AI as a core
-            expertise, but I won't pretend it doesn't exist either.
-          </p>
+          <h3 data-i18n="ai_label">A note on AI</h3>
+          <p data-i18n="ai_p">I follow AI regulation developments closely and have hands-on experience integrating AI APIs into product systems. I treat AI as a practical capability to be assessed carefully in context — not a headline feature or a default answer. If it genuinely solves a real problem in your situation, I can help evaluate the options and integrate them thoughtfully. I don't position AI as a core expertise, but I won't pretend it doesn't exist either.</p>
         </div>
 
-        <!-- How I work -->
         <div class="how-i-work">
-          <p class="section-label">How I work</p>
-          <h2>Engagement style</h2>
-          <p>
-            I work both as a focused advisor on specific, well-defined problems and as an embedded
-            technical lead for longer engagements — depending on what the team actually needs.
-            Some situations call for a sharp, time-limited review and a clear set of recommendations.
-            Others need sustained presence: someone in the room for the hard calls, week after week.
-            I'm comfortable with both and happy to discuss what makes sense for your situation.
-          </p>
+          <p class="section-label" data-i18n="hiw_label">How I work</p>
+          <h2 data-i18n="hiw_h2">Engagement style</h2>
+          <p data-i18n="hiw_p">I work both as a focused advisor on specific, well-defined problems and as an embedded technical lead for longer engagements — depending on what the team actually needs. Some situations call for a sharp, time-limited review and a clear set of recommendations. Others need sustained presence: someone in the room for the hard calls, week after week. I'm comfortable with both and happy to discuss what makes sense for your situation.</p>
           <p style="margin-top:1.5rem;">
-            <a href="contact.html" class="btn btn-outline">Discuss your situation</a>
+            <a href="contact.html" class="btn btn-outline" data-i18n="hiw_btn">Discuss your situation</a>
           </p>
         </div>
 
@@ -127,18 +105,18 @@
     </section>
   </main>
 
-  <!-- Footer -->
   <footer>
     <div class="footer-inner">
-      <p class="footer-copy">© 2025 Vytautas Tamulevicius. Independent consultant.</p>
+      <p class="footer-copy" data-i18n="footer_copy">© 2025 Vytautas Tamulevicius. Independent consultant.</p>
       <div class="footer-links">
         <!-- PLACEHOLDER: Verify LinkedIn URL slug before publishing -->
-        <a href="https://linkedin.com/in/vtamulevicius" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="mailto:vytautas.tamulevicius@humanaipartner.com">Email</a>
+        <a href="https://linkedin.com/in/vtamulevicius" target="_blank" rel="noopener" data-i18n="footer_li">LinkedIn</a>
+        <a href="mailto:vytautas.tamulevicius@humanaipartner.com" data-i18n="footer_email">Email</a>
       </div>
     </div>
   </footer>
 
+  <script src="translations.js"></script>
   <script>
     const hamburger = document.querySelector('.hamburger');
     const mobileMenu = document.querySelector('.mobile-menu');
@@ -148,6 +126,5 @@
       hamburger.setAttribute('aria-expanded', isOpen);
     });
   </script>
-
 </body>
 </html>

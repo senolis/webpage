@@ -9,107 +9,81 @@
 </head>
 <body>
 
-  <!-- Navigation -->
   <nav>
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo">Vytautas Tamulevicius</a>
+      <a href="index.html" class="nav-logo" data-i18n="nav_logo">Vytautas Tamulevicius</a>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-        <li class="nav-cta"><a href="contact.html" class="btn btn-primary">Get in touch</a></li>
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="services.html" data-i18n="nav_services">Services</a></li>
+        <li><a href="about.html" data-i18n="nav_about">About</a></li>
+        <li><a href="contact.html" class="active" data-i18n="nav_contact">Contact</a></li>
+        <li class="nav-cta"><a href="contact.html" class="btn btn-primary" data-i18n="nav_cta">Get in touch</a></li>
+        <li>
+          <div class="lang-switcher">
+            <button class="lang-btn" data-lang="en" aria-label="Switch to English">EN</button>
+            <button class="lang-btn" data-lang="dk" aria-label="Skift til dansk">DA</button>
+          </div>
+        </li>
       </ul>
-      <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+      <div class="nav-mobile-controls">
+        <div class="lang-switcher">
+          <button class="lang-btn" data-lang="en" aria-label="Switch to English">EN</button>
+          <button class="lang-btn" data-lang="dk" aria-label="Skift til dansk">DA</button>
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
     <div class="mobile-menu">
-      <a href="index.html">Home</a>
-      <a href="services.html">Services</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a href="contact.html" class="btn btn-primary">Get in touch</a>
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="services.html" data-i18n="nav_services">Services</a>
+      <a href="about.html" data-i18n="nav_about">About</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
+      <a href="contact.html" class="btn btn-primary" data-i18n="nav_cta">Get in touch</a>
     </div>
   </nav>
 
   <main>
     <section>
       <div class="container">
-        <p class="section-label">Let's talk</p>
-        <h1>Get in touch</h1>
-        <p style="color:#555; max-width:520px; margin-top:0.75rem;">
-          I'm happy to have an initial conversation about your situation — no commitment, no sales pitch.
-          Describe what you're dealing with and I'll respond directly.
-        </p>
+        <p class="section-label" data-i18n="ct_label">Let's talk</p>
+        <h1 data-i18n="ct_h1">Get in touch</h1>
+        <p style="color:#555; max-width:520px; margin-top:0.75rem;" data-i18n="ct_intro">I'm happy to have an initial conversation about your situation — no commitment, no sales pitch. Describe what you're dealing with and I'll respond directly.</p>
 
-        <!-- Contact form -->
-        <!-- PLACEHOLDER: Replace YOUR_FORM_ID with your Formspree endpoint after creating an account at formspree.io -->
-        <form
-          class="contact-form"
-          action="https://formspree.io/f/mbdqpvjg"
-          method="POST"
-          id="contact-form"
-          novalidate
-        >
+        <!-- PLACEHOLDER: Replace YOUR_FORM_ID with your Formspree endpoint -->
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" id="contact-form" novalidate>
 
           <div class="form-group">
-            <label for="name">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Your name"
-              required
-              autocomplete="name"
-            />
+            <label for="name" data-i18n="ct_name_label">Name</label>
+            <input type="text" id="name" name="name" data-i18n-ph="ct_name_ph" placeholder="Your name" required autocomplete="name" />
           </div>
 
           <div class="form-group">
-            <label for="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="your@email.com"
-              required
-              autocomplete="email"
-            />
+            <label for="email" data-i18n="ct_email_label">Email</label>
+            <input type="email" id="email" name="email" data-i18n-ph="ct_email_ph" placeholder="your@email.com" required autocomplete="email" />
           </div>
 
           <div class="form-group">
-            <label for="message">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              placeholder="Tell me a bit about your situation — what are you working on, and where do you need support?"
-              required
-            ></textarea>
+            <label for="message" data-i18n="ct_msg_label">Message</label>
+            <textarea id="message" name="message" data-i18n-ph="ct_msg_ph" placeholder="Tell me a bit about your situation — what are you working on, and where do you need support?" required></textarea>
           </div>
 
           <div class="form-submit">
-            <button type="submit" class="btn btn-primary">Send message</button>
+            <button type="submit" class="btn btn-primary" data-i18n="ct_submit">Send message</button>
           </div>
 
-          <p class="form-note">I typically respond within one business day.</p>
-
-          <div class="form-success" id="form-success" role="alert">
-            Thank you — your message has been sent. I'll be in touch shortly.
-          </div>
+          <p class="form-note" data-i18n="ct_note">I typically respond within one business day.</p>
+          <div class="form-success" id="form-success" role="alert" data-i18n="ct_success">Thank you — your message has been sent. I'll be in touch shortly.</div>
 
         </form>
 
-        <!-- Alternative contact -->
         <div class="contact-alternatives">
-          <h3>Prefer direct contact?</h3>
+          <h3 data-i18n="ct_alt_h3">Prefer direct contact?</h3>
           <div class="contact-links">
-            <a href="mailto:vytautas.tamulevicius@humanaipartner.com">
-              vytautas.tamulevicius@humanaipartner.com
-            </a>
+            <a href="mailto:vytautas.tamulevicius@humanaipartner.com">vytautas.tamulevicius@humanaipartner.com</a>
             <!-- PLACEHOLDER: Verify LinkedIn URL slug before publishing -->
-            <a href="https://linkedin.com/in/vtamulevicius" target="_blank" rel="noopener">
-              LinkedIn — Vytautas Tamulevicius
-            </a>
+            <a href="https://linkedin.com/in/vtamulevicius" target="_blank" rel="noopener" data-i18n="ct_li_link">LinkedIn — Vytautas Tamulevicius</a>
           </div>
         </div>
 
@@ -117,20 +91,19 @@
     </section>
   </main>
 
-  <!-- Footer -->
   <footer>
     <div class="footer-inner">
-      <p class="footer-copy">© 2025 Vytautas Tamulevicius. Independent consultant.</p>
+      <p class="footer-copy" data-i18n="footer_copy">© 2025 Vytautas Tamulevicius. Independent consultant.</p>
       <div class="footer-links">
         <!-- PLACEHOLDER: Verify LinkedIn URL slug before publishing -->
-        <a href="https://linkedin.com/in/vtamulevicius" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="mailto:vytautas.tamulevicius@humanaipartner.com">Email</a>
+        <a href="https://linkedin.com/in/vtamulevicius" target="_blank" rel="noopener" data-i18n="footer_li">LinkedIn</a>
+        <a href="mailto:vytautas.tamulevicius@humanaipartner.com" data-i18n="footer_email">Email</a>
       </div>
     </div>
   </footer>
 
+  <script src="translations.js"></script>
   <script>
-    // Hamburger menu
     const hamburger = document.querySelector('.hamburger');
     const mobileMenu = document.querySelector('.mobile-menu');
     hamburger.addEventListener('click', () => {
@@ -139,19 +112,13 @@
       hamburger.setAttribute('aria-expanded', isOpen);
     });
 
-    // Formspree AJAX submission with success message
     const form = document.getElementById('contact-form');
     const successMsg = document.getElementById('form-success');
-
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       const data = new FormData(form);
       try {
-        const res = await fetch(form.action, {
-          method: 'POST',
-          body: data,
-          headers: { Accept: 'application/json' }
-        });
+        const res = await fetch(form.action, { method: 'POST', body: data, headers: { Accept: 'application/json' } });
         if (res.ok) {
           form.reset();
           successMsg.style.display = 'block';
@@ -159,11 +126,8 @@
         } else {
           alert('Something went wrong — please try emailing directly.');
         }
-      } catch {
-        alert('Something went wrong — please try emailing directly.');
-      }
+      } catch { alert('Something went wrong — please try emailing directly.'); }
     });
   </script>
-
 </body>
 </html>
