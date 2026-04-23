@@ -584,20 +584,23 @@ footer {
 
 .lang-btn {
   background: none;
-  border: 1.5px solid transparent;
+  border: none;
   cursor: pointer;
   font-family: var(--font-body);
-  font-size: 0.72rem;
+  font-size: 0.78rem;
   font-weight: 500;
   letter-spacing: 0.06em;
   color: var(--muted);
-  padding: 3px 7px;
+  padding: 3px 5px;
   border-radius: 2px;
-  transition: color 0.2s, border-color 0.2s;
+  transition: color 0.2s;
   line-height: 1.4;
 }
 .lang-btn:hover  { color: var(--accent); }
-.lang-btn.active { color: var(--accent); border-color: var(--accent); }
+.lang-btn.active {
+  color: var(--accent);
+  font-weight: 600;
+}
 
 /* Hide mobile lang switcher on desktop */
 .nav-mobile-controls { display: none; }
