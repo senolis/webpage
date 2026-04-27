@@ -133,7 +133,7 @@ const translations = {
     ct_note:        "I typically respond within one business day.",
     ct_success:     "Thank you — your message has been sent. I'll be in touch shortly.",
     ct_alt_h3:      "Prefer direct contact?",
-    ct_li_link:     "LinkedIn — Vytautas Tamulevicius",
+    ct_li_link:     "LinkedIn",
   },
 
   dk: {
@@ -265,7 +265,7 @@ const translations = {
     ct_note:        "Jeg svarer typisk inden for én hverdag.",
     ct_success:     "Tak — din besked er afsendt. Jeg vender tilbage snarest.",
     ct_alt_h3:      "Foretrækker du direkte kontakt?",
-    ct_li_link:     "LinkedIn — Vytautas Tamulevicius",
+    ct_li_link:     "LinkedIn",
   }
 };
 
