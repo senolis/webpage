@@ -14,7 +14,7 @@ const translations = {
     nav_cta:       "Get in touch",
 
     // --- FOOTER ---
-    footer_copy:   "© 2025 Vytautas Tamulevicius - Independent consultant",
+    footer_copy:   "© 2026 Vytautas Tamulevicius - Independent consultant",
     footer_li:     "LinkedIn",
     footer_email:  "Email",
 
