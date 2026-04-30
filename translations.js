@@ -22,8 +22,8 @@ const translations = {
     //  INDEX
     // ==================
     hero_label:    "Independent Consultant",
-    hero_h1:       "Senior Solution Architect &amp; Engineering Leader",
-    hero_sub:      "I help engineering teams and leadership make better architecture decisions — cutting through complexity to find approaches that actually work, long-term. No fluff, no overengineering. Just clear thinking and practical direction.",
+    hero_h1:       "Senior Architect, DevSecOps and Quality Engineering",
+    hero_sub:      "I help engineering teams and leadership build secure, reliable and observable systems. From DevSecOps platform design to quality engineering strategy, I bring both the technical depth and the organisational experience to make it stick across teams and stakeholders.",
     hero_cta:      "Get in touch",
 
     services_label: "What I do",
@@ -56,8 +56,8 @@ const translations = {
 
     about_label:    "About me",
     about_h2:       "A bit of background",
-    about_p1:       "I'm a Solution Architect and Engineering Leader with a background in complex enterprise environments — insurance systems, IoT platforms, and large-scale integrations. I've spent my career at the intersection of technical depth and practical delivery, working with teams that needed both.",
-    about_p2:       "I work independently because it lets me focus entirely on the problem at hand — without the overhead of a large firm or the distraction of internal politics.",
+    about_p1:       "I'm a Senior Architect with a background in DevSecOps, quality engineering and platform enablement, built across enterprise environments in insurance, industrial IoT and large-scale integrations. I co-founded a DevSecOps function, built a Center of Excellence from scratch, and designed both the strategy and tooling that engineering teams actually use in production.",
+    about_p2:       "I work independently because it lets me focus entirely on the problem at hand. The person you speak with is the person doing the work.",
     about_link:     "Read more about me",
 
     cta_label:      "Let's talk",
@@ -89,12 +89,14 @@ const translations = {
     sp_s2_l5:       "Supporting organisations through significant technology transitions",
 
     sp_s3_h2:       "Quality, DevSecOps &amp; Observability",
-    sp_s3_p:        "Shipping confidently is a discipline. It requires the right test strategy, the right tooling, and a clear view of what's happening in production. I help teams build that foundation — not as a one-time project, but as a sustainable way of working.",
-    sp_s3_l1:       "Test strategy and quality engineering — coverage that matters, not just volume",
-    sp_s3_l2:       "Release confidence and deployment pipeline design",
-    sp_s3_l3:       "Monitoring, alerting, and system observability",
-    sp_s3_l4:       "Secure development practices embedded in the workflow, not bolted on at the end",
-    sp_s3_l5:       "Helping teams understand and own the quality of what they ship",
+    sp_s3_p:        "This is where most of my recent enterprise work has lived. I've built DevSecOps platforms, co-founded quality engineering functions, and helped organisations move from fragile releases to systematic, observable delivery at scale, across multiple teams.",
+    sp_s3_l1:       "DevSecOps platform design and implementation — strategy, tooling, and team enablement",
+    sp_s3_l2:       "Center of Excellence setup: standards, workflows, and capability building across engineering teams",
+    sp_s3_l3:       "Test strategy and quality engineering focused on real release risk, not just coverage",
+    sp_s3_l4:       "Release pipeline design and deployment confidence",
+    sp_s3_l5:       "Monitoring, alerting, and observability using Dynatrace, Grafana, and related tooling",
+    sp_s3_l6:       "Secure development practices embedded in the workflow from the start",
+    sp_s3_l7:       "Security tooling rollout and developer adoption at enterprise scale",
 
     ai_label:       "A note on AI",
     ai_p:           "I follow AI regulation developments closely and have hands-on experience integrating AI APIs into product systems. I treat AI as a practical capability to be assessed carefully in context — not a headline feature or a default answer. If it genuinely solves a real problem in your situation, I can help evaluate the options and integrate them thoughtfully. I don't position AI as a core expertise, but I won't pretend it doesn't exist either.",
@@ -109,12 +111,13 @@ const translations = {
     // ==================
     ab_label:       "Background",
     ab_h1:          "About me",
-    ab_p1:          "I'm a Solution Architect and Engineering Leader with over a decade of experience working on systems where the stakes are real — insurance platforms, industrial IoT, large-scale enterprise integrations. The kind of environments where a poor architecture decision doesn't just slow you down; it costs you years.",
-    ab_p2:          "My background sits at the intersection of technical depth and delivery. I've led architecture work across organisations, shaped technical strategy at the leadership level, and worked closely with engineering teams to translate direction into something they can actually build. I understand both sides of that conversation — and I've spent a long time getting better at bridging them.",
-    ab_p3:          "Over the years I've developed a strong focus on quality and observability — not as afterthoughts, but as foundational concerns. I believe that how a system behaves in production is at least as important as how it looks on a whiteboard. I've seen too many projects succeed on paper and fail in practice to think otherwise.",
-    ab_p4:          "I work independently because it lets me focus on the problem in front of me without the overhead of a large organisation. It also means the person you speak with is the person doing the work. There's no handoff to a more junior team after the proposal is signed.",
-    ab_p5:          "I take on both focused engagements — a specific decision to work through, an architecture to review, a strategy to pressure-test — and longer embedded roles where a team needs sustained technical leadership. What I'm drawn to, in either case, is work that has genuine impact: problems that matter to the people working on them, and outcomes that hold up over time.",
-    ab_p6:          "If any of that sounds like what you're looking for, I'm happy to have a conversation. No commitment, no pitch — just a direct discussion about whether there's a fit.",
+    ab_p1:          "I'm a Senior Architect with over a decade of experience working on systems where the stakes are real. Insurance platforms, industrial IoT, large-scale enterprise integrations. The kind of environments where a poor architecture decision doesn't just slow you down; it costs you years.",
+    ab_p2:          "My most recent work has been in DevSecOps and quality engineering. I co-founded a DevSecOps function at a major Nordic insurer, built a Center of Excellence that set standards and ways of working across multiple engineering teams, and designed the security tooling platform used across the organisation.",
+    ab_p3:          "Before that, I led a small engineering team at EPOS, where I designed and physically built an IoT test lab to simulate real-world hardware interactions. It didn't exist before. We built it from scratch, both technically and organisationally. That's a fairly good example of how I work: I don't wait for perfect conditions. I figure out what's needed and build it.",
+    ab_p4:          "My background sits at the intersection of technical depth and delivery. I've worked closely with both engineering teams and senior stakeholders, translating architecture decisions into language that works in a boardroom, and translating business constraints into approaches that engineers can actually build. I understand both sides of that conversation and have spent a long time getting better at bridging them.",
+    ab_p5:          "I work independently because it means the person you speak with is the person doing the work. No handoff after the proposal. No junior team in the background.",
+    ab_p6:          "I take on both focused engagements and longer embedded roles, depending on what the situation actually calls for. What draws me to a piece of work is whether it has genuine impact. Problems that matter to the people working on them, and outcomes that hold up over time.",
+    ab_p7:          "If any of that sounds like what you're looking for, I'm happy to have a conversation.",
     ab_btn:         "Get in touch",
 
     // ==================
@@ -154,8 +157,8 @@ const translations = {
     //  INDEX
     // ==================
     hero_label:    "Uafhængig konsulent",
-    hero_h1:       "Senior Solution Architect &amp; Engineering Leader",
-    hero_sub:      "Jeg hjælper engineering-teams og ledelse med at træffe bedre arkitekturbeslutninger — skærer igennem kompleksiteten for at finde løsninger, der faktisk holder på lang sigt. Ingen fyld, ingen overarkitektur. Bare klar tænkning og praktisk retning.",
+    hero_h1:       "Senior Arkitekt, DevSecOps og Quality Engineering",
+    hero_sub:      "Jeg hjælper engineering-teams og ledelse med at opbygge sikre, pålidelige og observerbare systemer. Fra DevSecOps-platformdesign til quality engineering-strategi bringer jeg både den tekniske dybde og den organisatoriske erfaring til at forankre det på tværs af teams og interessenter.",
     hero_cta:      "Kontakt mig",
 
     services_label: "Hvad jeg laver",
@@ -188,8 +191,8 @@ const translations = {
 
     about_label:    "Om mig",
     about_h2:       "Lidt baggrund",
-    about_p1:       "Jeg er Solution Architect og Engineering Leader med baggrund i komplekse enterprise-miljøer — forsikringsplatforme, industrielt IoT og store integrationslandskaber. Jeg har tilbragt min karriere i skæringspunktet mellem teknisk dybde og praktisk levering, i samarbejde med teams, der havde brug for begge dele.",
-    about_p2:       "Jeg arbejder uafhængigt, fordi det giver mig mulighed for at fokusere fuldt ud på det aktuelle problem — uden overhead fra en stor organisation eller intern politik som distraktion.",
+    about_p1:       "Jeg er Senior Arkitekt med baggrund i DevSecOps, quality engineering og platform enablement, opbygget på tværs af enterprise-miljøer inden for forsikring, industrielt IoT og store integrationer. Jeg medstiftede en DevSecOps-funktion, opbyggede et Center of Excellence fra bunden og designede både strategi og værktøjer, som engineering-teams faktisk bruger i produktion.",
+    about_p2:       "Jeg arbejder uafhængigt, fordi det giver mig mulighed for at fokusere fuldt ud på det aktuelle problem. Den person, du taler med, er den person, der udfører arbejdet.",
     about_link:     "Læs mere om mig",
 
     cta_label:      "Lad os tale",
@@ -221,12 +224,14 @@ const translations = {
     sp_s2_l5:       "Støtte til organisationer gennem større teknologiskift",
 
     sp_s3_h2:       "Kvalitet, DevSecOps &amp; Observability",
-    sp_s3_p:        "At levere med tryghed er en disciplin. Det kræver den rette teststrategi, de rette værktøjer og et klart billede af, hvad der sker i produktion. Jeg hjælper teams med at opbygge det fundament — ikke som et engangsprojekt, men som en bæredygtig måde at arbejde på.",
-    sp_s3_l1:       "Teststrategi og kvalitetsteknik — dækning der betyder noget, ikke bare volumen",
-    sp_s3_l2:       "Release-tryghed og design af deployment-pipelines",
-    sp_s3_l3:       "Monitorering, alarmering og system-observability",
-    sp_s3_l4:       "Sikre udviklingsmetoder integreret i arbejdsgangen — ikke boltet på til sidst",
-    sp_s3_l5:       "Hjælper teams med at forstå og tage ansvar for kvaliteten af det, de leverer",
+    sp_s3_p:        "Her har størstedelen af mit seneste enterprise-arbejde fundet sted. Jeg har bygget DevSecOps-platforme, medstiftet quality engineering-funktioner og hjulpet organisationer med at gå fra skrøbelige releases til systematisk, observerbar levering i stor skala på tværs af flere teams.",
+    sp_s3_l1:       "Design og implementering af DevSecOps-platforme — strategi, værktøjer og team enablement",
+    sp_s3_l2:       "Opbygning af Center of Excellence: standarder, arbejdsgange og kompetenceopbygning på tværs af engineering-teams",
+    sp_s3_l3:       "Teststrategi og quality engineering med fokus på reel release-risiko, ikke bare dækning",
+    sp_s3_l4:       "Design af release-pipelines og deployment-tryghed",
+    sp_s3_l5:       "Monitorering, alarmering og observability med Dynatrace, Grafana og relaterede værktøjer",
+    sp_s3_l6:       "Sikre udviklingsmetoder integreret i arbejdsgangen fra starten",
+    sp_s3_l7:       "Udrulning af sikkerhedsværktøjer og udvikleradoption i enterprise-skala",
 
     ai_label:       "En bemærkning om AI",
     ai_p:           "Jeg følger nøje med i udviklingen af AI-regulering og har praktisk erfaring med at integrere AI API'er i produktsystemer. Jeg behandler AI som en praktisk mulighed, der skal vurderes omhyggeligt i kontekst — ikke som et overskriftsbegreb eller et standardsvar. Hvis det reelt løser et problem i din situation, kan jeg hjælpe med at evaluere mulighederne og integrere dem gennemtænkt. Jeg positionerer ikke AI som en kernekompetence, men jeg vil heller ikke lade som om, det ikke eksisterer.",
@@ -241,12 +246,13 @@ const translations = {
     // ==================
     ab_label:       "Baggrund",
     ab_h1:          "Om mig",
-    ab_p1:          "Jeg er Solution Architect og Engineering Leader med over et årtis erfaring med systemer, hvor indsatsen er reel — forsikringsplatforme, industrielt IoT og store enterprise-integrationer. Den slags miljøer, hvor en dårlig arkitekturbeslutning ikke bare bremser dig — den koster dig år.",
-    ab_p2:          "Min baggrund befinder sig i skæringspunktet mellem teknisk dybde og levering. Jeg har ledet arkitekturarbejde på tværs af organisationer, formet teknisk strategi på ledelsesniveau og arbejdet tæt med engineering-teams om at omsætte retning til noget, de faktisk kan bygge. Jeg forstår begge sider af den samtale — og jeg har brugt lang tid på at blive bedre til at bygge bro imellem dem.",
-    ab_p3:          "Gennem årene har jeg udviklet et stærkt fokus på kvalitet og observability — ikke som eftertanker, men som grundlæggende bekymringer. Jeg mener, at et systems adfærd i produktion er mindst lige så vigtig som dets udseende på en whiteboard. Jeg har set for mange projekter lykkes på papiret og fejle i praksis til at tænke anderledes.",
-    ab_p4:          "Jeg arbejder uafhængigt, fordi det giver mig mulighed for at fokusere på problemet foran mig uden overhead fra en stor organisation. Det betyder også, at den person, du taler med, er den person, der udfører arbejdet. Der er ingen overdragelse til et mere juniort team, efter tilbuddet er underskrevet.",
-    ab_p5:          "Jeg tager både fokuserede opgaver — en specifik beslutning at arbejde igennem, en arkitektur at gennemgå, en strategi at stresse-teste — og længere indlejrede roller, hvor et team har brug for vedvarende teknisk ledelse. Det, jeg tiltrækkes af i begge tilfælde, er arbejde, der har reel indvirkning: problemer der betyder noget for dem, der arbejder med dem, og resultater der holder over tid.",
-    ab_p6:          "Lyder noget af det som det, du leder efter, er jeg glad for at tage en samtale. Ingen forpligtelse, ingen salgstale — bare en direkte diskussion om, hvorvidt der er et match.",
+    ab_p1:          "Jeg er Senior Arkitekt med over et årtis erfaring med systemer, hvor indsatsen er reel. Forsikringsplatforme, industrielt IoT, store enterprise-integrationer. Den slags miljøer, hvor en dårlig arkitekturbeslutning ikke bare bremser dig — den koster dig år.",
+    ab_p2:          "Mit seneste arbejde har ligget inden for DevSecOps og quality engineering. Jeg medstiftede en DevSecOps-funktion hos et større nordisk forsikringsselskab, opbyggede et Center of Excellence, der satte standarder og arbejdsgange på tværs af flere engineering-teams, og designede den sikkerhedsplatform, der bruges i hele organisationen.",
+    ab_p3:          "Inden da ledede jeg et lille engineering-team hos EPOS, hvor jeg designede og fysisk opbyggede et IoT-testlaboratorium til at simulere virkelige hardware-interaktioner. Det fandtes ikke i forvejen. Vi byggede det fra bunden — både teknisk og organisatorisk. Det er et ret godt eksempel på, hvordan jeg arbejder: jeg venter ikke på perfekte betingelser. Jeg finder ud af, hvad der er behov for, og bygger det.",
+    ab_p4:          "Min baggrund befinder sig i skæringspunktet mellem teknisk dybde og levering. Jeg har arbejdet tæt med både engineering-teams og senior interessenter — oversat arkitekturbeslutninger til et sprog, der virker i bestyrelseslokalet, og oversat forretningsbegrænsninger til løsninger, som udviklere faktisk kan bygge. Jeg forstår begge sider af den samtale og har brugt lang tid på at blive bedre til at bygge bro imellem dem.",
+    ab_p5:          "Jeg arbejder uafhængigt, fordi det betyder, at den person, du taler med, er den person, der udfører arbejdet. Ingen overdragelse efter tilbuddet. Intet juniort team i baggrunden.",
+    ab_p6:          "Jeg tager både fokuserede opgaver og længere indlejrede roller, afhængigt af hvad situationen faktisk kræver. Det, der tiltrækker mig ved et stykke arbejde, er om det har reel indvirkning. Problemer der betyder noget for dem, der arbejder med dem, og resultater der holder over tid.",
+    ab_p7:          "Lyder noget af det som det, du leder efter, er jeg glad for at tage en samtale.",
     ab_btn:         "Kontakt mig",
 
     // ==================
